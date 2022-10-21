@@ -15,6 +15,6 @@ app.get("/", (req, res, next) => {
 })
 
 // Post
-app.use("/api/v1/tour", tourRoute)
+app.use("/tour", tourRoute)
 
 module.exports = app;
